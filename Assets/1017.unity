@@ -243,7 +243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2
+      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalPosition.y
@@ -417,8 +417,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 888153048}
   - {fileID: 7735033771883827950}
+  - {fileID: 888153048}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &904096215732900972
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed093621d8d342e9b74c757be4c323b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackerCam: {fileID: 0}
+  trackerCam: {fileID: 2287558453659319378}
   imageTargets:
   - id: KAELIX
     transform: {fileID: 7735033771883827950}
@@ -443,7 +443,7 @@ MonoBehaviour:
   trackedIds: []
   trackerSettings:
     maxSimultaneousTargets: 1
-    targetFrameRate: 60
+    targetFrameRate: -1
     advancedSettings:
       maxFrameLength: 500
       maxFrameArea: 80
